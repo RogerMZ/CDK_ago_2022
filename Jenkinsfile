@@ -20,6 +20,7 @@ env'''
     stage('Run') {
       steps {
         sh 'bash run.sh'
+        sh 'docker ps'
       }
     }
 
