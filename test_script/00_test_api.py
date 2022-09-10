@@ -1,7 +1,7 @@
 #!/bin/python3
 import requests
 
-API_URL = 'http://0.0.0.0:3000/saludo/RogerMZ'
+API_URL = 'http://0.0.0.0:3000/saludos/RogerMZ'
 
 # Test GET request
 response = requests.request("GET", API_URL)
